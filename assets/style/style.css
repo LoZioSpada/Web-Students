@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "Feather";
+    src: url(/assets/fonts/feather.ttf), url(/assets/fonts/fa-regular-400.woff2);
+    font-weight: 400;
+}
+
+body {
+    font-family: "Feather", sans-serif;
+}
+
+.nav-item img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+form .dropdown-toggle::after{
+    visibility: hidden;
+}
