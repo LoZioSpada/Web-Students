@@ -40,7 +40,11 @@ h1 {
     background-color: rgba(255,238,218,255);
     border-style: solid 0.5px;
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
-    padding: 1rem;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+#underJumbo h4,p{
+    font-size: 13px;
 }
