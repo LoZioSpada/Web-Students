@@ -35,16 +35,38 @@ h1 {
     font-weight: 300;
 }
 
-#underJumbo span img{
+#underJumbo span i{
     color: rgba(194,129,53,255);
     background-color: rgba(255,238,218,255);
-    border-style: solid 0.5px;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
+    font-size: 2rem;
 }
 
 #underJumbo h4,p{
     font-size: 13px;
+}
+
+.avatar {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.prize {
+    font-size: 1rem;
+}
+
+del {
+    color: gray;
+}
+
+img.vote,span.vote{
+    color: yellow;
+}
+
+.totalVote {
+    color: gray;
 }
