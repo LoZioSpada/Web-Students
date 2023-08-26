@@ -14,6 +14,15 @@ body {
     border-radius: 50%;
 }
 
+.bi.bi-bell{
+    font-size: 1.25rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    color: gray;
+    background-color: lightgrey;
+    padding: 5px;
+}
+
 .right.dropdown-toggle::after{
     visibility: hidden;
 }
@@ -87,9 +96,26 @@ del {
 .card {
     transform: scale(1);
     transition: transform 0.5s ease-in-out;
+    cursor: pointer ;
+    height: 100%;
 }
 
 .card:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.9)!important;
+    border-radius: 30px;
+}
+
+.arrow-left{
+    position: absolute;
+    top: 270px;
+    left: -50px;
+    cursor: pointer;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 267px;
+    right: -50px;
+    cursor: pointer;
 }
